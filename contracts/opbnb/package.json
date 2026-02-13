@@ -1,0 +1,25 @@
+{
+  "name": "@spp/opbnb-contracts",
+  "version": "1.0.0",
+  "description": "opBNB L2 contracts for Sport Performance Protocol (uses BNB contracts)",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.ts",
+    "deploy:testnet": "hardhat run scripts/deploy.ts --network opBNBTestnet",
+    "deploy:mainnet": "hardhat run scripts/deploy.ts --network opBNBMainnet",
+    "verify": "hardhat verify"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "hardhat": "^2.22.18",
+    "typescript": "^5.7.3",
+    "@types/node": "^22.10.7"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0",
+    "ethers": "^6.13.5"
+  }
+}

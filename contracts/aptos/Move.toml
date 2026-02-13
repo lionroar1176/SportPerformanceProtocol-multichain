@@ -1,0 +1,13 @@
+[package]
+name = "SPPProtocol"
+version = "1.0.0"
+authors = ["Sport Performance Protocol Team"]
+
+[addresses]
+spp_protocol = "_"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "mainnet" }
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib", rev = "mainnet" }
+
+[dev-dependencies]
