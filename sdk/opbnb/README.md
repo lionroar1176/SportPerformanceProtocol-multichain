@@ -543,10 +543,3 @@ Already using BNB L1 validator? Migration is simple:
 ## License
 
 MIT License - see LICENSE file for details
-
-## Support
-
-- Documentation: https://docs.sportperformanceprotocol.com
-- GitHub: https://github.com/sport-performance-protocol
-- Discord: https://discord.gg/spp
-- Email: validators@sportperformanceprotocol.com
