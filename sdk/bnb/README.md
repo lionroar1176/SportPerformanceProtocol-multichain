@@ -624,10 +624,3 @@ await new Promise(resolve => setTimeout(resolve, 5000));
 ## License
 
 MIT License - see LICENSE file for details
-
-## Support
-
-- Documentation: https://docs.sportperformanceprotocol.com
-- GitHub: https://github.com/sport-performance-protocol
-- Discord: https://discord.gg/spp
-- Email: validators@sportperformanceprotocol.com
