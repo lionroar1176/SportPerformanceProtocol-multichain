@@ -92,37 +92,7 @@ SportPerformanceProtocol/
 - Rust 1.70+ (for Stylus contracts)
 - Solidity 0.8.19+ (for BNB/opBNB contracts)
 - Aptos CLI (for Aptos contracts)
-- Docker (optional, for local development)
 
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/SportPerformanceProtocol/spp-protocol.git
-cd spp-protocol
-
-# Install NestJS backend dependencies
-npm install
-
-# Build shared SDK types
-cd sdk/types && npm install && npm run build
-
-# Install validator SDKs
-cd ../bnb && npm install && npm run build
-cd ../opbnb && npm install && npm run build
-cd ../aptos && npm install && npm run build
-```
-
-### Running the Backend
-
-```bash
-# Development mode
-npm run start:dev
-
-# Production mode
-npm run build
-npm run start:prod
-```
 
 ### Deploying Smart Contracts
 
