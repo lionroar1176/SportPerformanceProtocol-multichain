@@ -187,9 +187,3 @@ console.log('Block Explorer:', info.blockExplorer);
 ## License
 
 MIT
-
-## Support
-
-For issues and questions:
-- GitHub Issues: https://github.com/SportPerformanceProtocol/spp-protocol/issues
-- Documentation: https://docs.sportperformanceprotocol.com
